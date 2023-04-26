@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1>Registrazione insegnante</h1>
+</head>
+<body>
+	<form method="post" action="/esercizio01/Inserimento">
+		<input type="text" value="Insegnante" name="tipo" style="display: none">
+		<table>
+			<tr>
+				<td>Nome:</td>
+				<td><input type="text" placeholder="Inserisci nome" name="nome"
+					id="nome"></td>
+			</tr>
+			<tr>
+				<td>Cognome:</td>
+				<td><input type="text" placeholder="Inserisci Cognome"
+					name="cognome" id="cognome"></td>
+			</tr>
+			<tr>
+				<td>Citta' corso:</td>
+				<td><select id="cittacorso" name="cittacorso">
+						<option value="Foggia">Foggia</option>
+						<option value="Molfetta">Molfetta</option>
+						<option value="Bari">Bari</option>
+						<option value="Taranto">Taranto</option>
+						<option value="Lecce">Lecce</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Eta':</td>
+				<td><input type="number" placeholder="Inserisci Eta'"
+					name="eta" id="eta"></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="email" placeholder="Inserisci Email"
+					name="email" id="email"></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" placeholder="Inserisci Password"
+					name="password" id="password"></td>
+			</tr>
+		</table>
+		<button type="submit" class="registerbtn">Register</button>
+	</form>
+</body>
+</html>
